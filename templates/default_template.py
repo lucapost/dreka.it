@@ -44,7 +44,7 @@ def header(node):
 		<link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
 		<link rel="stylesheet" href="/owl-carousel/owl.theme.css">
 		<script src="/owl-carousel/owl.carousel.js"></script>
-		<script src="/js/owl.demo.js"></script>
+  		<script src="/js/slide.js"></script> 
 	</head>
 	<body>
 			<header id="top" class="container_12 clearfix">
@@ -53,76 +53,19 @@ def header(node):
                		</header>
 		<div class="boxfigure">
 			<figure class="container_12 clearfix">
-				<div class="bigfigure grid_12">
-      					<img src="http://dreka.it/camera_1.jpg" alt="camera_1" title="la webcam su Cras" id="cras" class="focus">
-      					<img src="http://dreka.it/camera_2.jpg" alt="camera_2" title="la webcam sul Kolovrat" id="kolovrat">
+				<div id="owl-demo" class="owl-carousel owl-theme grid_12">
+  					<div class="item">
+      					      	<img src="http://dreka.it/camera_1.jpg" alt="camera_2" title="la webcam sul Kolovrat" id="kolovrat" class="big">
+					</div>
+  					<div class="item">
+      					      	<img src="http://dreka.it/camera_2.jpg" alt="camera_2" title="la webcam sul Kolovrat" id="kolovrat" class="big">
+					</div>
 				</div>
-				<nav>
-					<a href="/#cras" class="selfigure grid_2 prefix_4">
-      						<img src="http://dreka.it/camera_1.jpg" alt="camera_1" title="la webcam su Cras" class="small">
-					</a>
-					<a href="/#kolovrat" class="selfigure grid_2 suffix_4">
-      						<img src="http://dreka.it/camera_2.jpg" alt="camera_2" title="la webcam sul Kolovrat" class="small">
-					</a>
-				</nav>
-
 			</figure>
             	</div>
 			<div class="clear"></div>
 			<div class="container_12 clearfix">
-				<div id="owl-example" class="owl-carousel grid_12">
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Carta</h4>
-							<a href="#">sito carla</a>
-							<p>indirizzo carla</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Pippo</h4>
-							<a href="#">sito Pippo</a>
-							<p>indirizzo pippo</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa AAAA</h4>
-							<a href="http://www.casa-mariza.de">www.casa-mariza.de</a>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Carta</h4>
-							<a href="#">sito carla</a>
-							<p>indirizzo carla</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Pippo</h4>
-							<a href="#">sito Pippo</a>
-							<p>indirizzo pippo</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa AAAA</h4>
-							<a href="http://www.casa-mariza.de">www.casa-mariza.de</a>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Carta</h4>
-							<a href="#">sito carla</a>
-							<p>indirizzo carla</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa Pippo</h4>
-							<a href="#">sito Pippo</a>
-							<p>indirizzo pippo</p>
-					</div>
-			  		<div>
-      						<img src="/images/mariza.jpg" alt="logo casa mariza" title="la tabella di casa mariza" class="smaller">
-							<h4>Casa AAAA</h4>
-							<a href="http://www.casa-mariza.de">www.casa-mariza.de</a>
-					</div>
-
+				<div class="grid_12">
 				</div>
 			</div>
 			<div class="clear"></div>

@@ -27,7 +27,11 @@ h1 {
 
 h1 a {
 	color: blue;
-	text-shadow: 1px 1px green;
+	text-shadow: 2px 2px green;
+}
+
+h1 a:hover {
+	color: black;
 }
 
 h1 a:visited {
@@ -71,36 +75,28 @@ p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=1 );
 }
 
-.boxfigure img.small {
-	margin-bottom: 20px;
-	width: 138px;
-	height: auto;
-	border-radius: 10px;
-	border: 1px solid black;
-}
-
-.boxfigure img:hover.small {
+img.big:hover.small {
 	border: 1px solid green;
 }
 
-.bigfigure img:not(:target) {
+img.big:not(:target) {
     	display: none;
 }
 
-.bigfigure img.focus:not(:target) {
+img.big.focus:not(:target) {
     	display: none;
 }
 
-.bigfigure img:target {
+img.big:target {
     	display: block;
    	-webkit-animation: fadeIn 1s;
    	animation: fadeIn 1s;
 }
 
-.bigfigure img {
+img.big {
 	margin-bottom: 20px;
-	width: 958px;
-	height: auto;
+	width: 938px;
+	height: 518px;
 	border-radius: 10px;
 	border: 1px solid black;
 }
@@ -123,10 +119,10 @@ article a:visited {
 	border-top: 1px solid black;
 }
 
-#owl-example .item {
-  	height: 80px;
-}
-
 img.smaller {
 	border-radius: 10px;
+}
+
+#owl-demo .item img{
+    	display: block;
 }
