@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Nobile);
+
+* {
+    	margin: 0;
+    	padding: 0;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+a {	
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 72px;
+	font-weight: normal;
+	line-height: 80px;
+	margin: 20px 0 20px 0;
+}
+
+h1 a {
+	color: blue;
+	text-shadow: 1px 1px green;
+}
+
+h1 a:visited {
+	color: blue;
+}
+
+h2 {	
+	text-align: center;
+	font-family: 'Nobile';
+	font-size: 16px;
+	line-height: 40px;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 40px;
+	color: blue;
+	text-shadow: 1px 1px green;
+}
+
+ul li,
+p {
+	font-family: 'Nobile';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.boxfigure {
+	padding-top: 20px;
+	background: #93cede;
+	background: -moz-radial-gradient(center, ellipse cover,  #93cede 0%, #75bdd1 41%, #49a5bf 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf));
+	background: -webkit-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+	background: radial-gradient(ellipse at center,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=1 );
+}
+
+.boxfigure img.small {
+	margin-bottom: 20px;
+	width: 138px;
+	height: auto;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.boxfigure img:hover.small {
+	border: 1px solid green;
+}
+
+.bigfigure img:not(:target) {
+    	display: none;
+}
+
+.bigfigure img.focus:not(:target) {
+    	display: none;
+}
+
+.bigfigure img:target {
+    	display: block;
+   	-webkit-animation: fadeIn 1s;
+   	animation: fadeIn 1s;
+}
+
+.bigfigure img {
+	margin-bottom: 20px;
+	width: 958px;
+	height: auto;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+article {
+	margin-top: 20px;
+}
+
+article a {
+	color: green;
+}
+
+article a:visited {
+	color: green;
+}
+
+.foot {
+	text-align: center;
+	height: 59px
+	border-top: 1px solid black;
+}
+
+#owl-example .item {
+  	height: 80px;
+}
+
+img.smaller {
+	border-radius: 10px;
+}

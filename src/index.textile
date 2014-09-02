@@ -1,0 +1,24 @@
+notextile. <article class="grid_4 alpha">
+
+h3. Chi siamo
+
+_Le webcam di Dreka_ è un progetto dell'associazione "Kobilja Glava":http://www.kobiljaglava.com, nasce nell'intenzione di offrire la possibilità di dare un occhio sulle frazioni di Drenchia anche a chi è lontano.
+
+notextile. </article><article class="grid_4">
+
+h3. Territorio
+
+Il "Comune di Drenchia":http://www.comune.drenchia.ud.it/ è il più piccolo ente municipale del Friuli Venezia Giulia, conta infatti solo 141 abitanti. Si trova nell'estremo nordest d'Italia, nelle Valli del Natisone, sulle pendici della catena montuosa del Colovrat, al confine con la Repubblica di Slovenia. Se vuoi approfondire ti consigliamo la pagina "it.wikipedia.org/wiki/Drenchia":http://it.wikipedia.org/wiki/Drenchia
+
+notextile. </article><article class="grid_4 omega">
+
+h3. Contatti
+
+* email
+** "info@dreka.it":mailto:info@dreka.it
+
+* www
+** "kobiljaglava.com":http://www.kobiljaglava.com
+** "www.comune.drenchia.ud.it":http://www.comune.drenchia.ud.it
+
+notextile. </article>
