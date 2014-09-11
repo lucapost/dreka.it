@@ -27,22 +27,23 @@ def header(node):
 	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="it"> <![endif]-->
 	<!--[if gt IE 8]><!--> <html class="no-js" lang="it"> <!--<![endif]-->
 	<head>
-       	<meta charset="utf-8" />
-       	<meta name="author" content="Luca Postregna" />
-	<meta name="description" content="''' + SUBTITLE + ''' - ''' + node.page.name + '''" />
-        <meta name="keywords" content="dreka, drenchia, kolovrat, valli del natisone, webcam">
-       	<title>''' + SITE_NAME + ''' | ''' + SUBTITLE + '''</title>
-  		<meta name="viewport" content="width=device-width">
+       		<meta charset="utf-8" />
+       		<meta name="author" content="Luca Postregna" />
+		<meta name="description" content="''' + SUBTITLE + ''' - ''' + node.page.name + '''" />
+        	<meta name="keywords" content="dreka, drenchia, kolovrat, valli del natisone, webcam">
+       		<title>''' + SITE_NAME + ''' | ''' + SUBTITLE + '''</title>
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/960_12_col.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/hashgrid.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-		<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="/css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="/fancybox/source/jquery.fancybox.css"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   		<script src="/js/modernizr.js"></script> 
   		<script src="/js/hashgrid.js"></script> 
-		<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js"></script>
+		<script src="/fancybox/source/jquery.fancybox.pack.js"></script>
   		<script src="/js/fancy.js"></script> 
 	</head>
 	<body id="home">
@@ -62,11 +63,13 @@ def header(node):
 					<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione San Volfango e Lombai">
 						<figure class="grid_6 camera">
 							<img src="http://dreka.it/camera_1.jpg"/>
+							<figcaption>La piazza e la canonica di Cras; sullo sfondo la chiesa di San Volfango, Rucchin e Lombai; l'altopiano della Baisizza ed il Monte Cum</figcaption>
 						</figure>
 					</a>
 					<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione Kolovrat: Drenchia, Trinco, Zuodar e Crai">
 						<figure class="grid_6 camera">
 							<img src="http://dreka.it/camera_2.jpg"/>
+							<figcaption>La catena montuosa del Colovrat; le frazioni di Drenchia Superiore ed Inferiore, Trinco, Zuodar e Crai; Passo Casoni Solarie</figcaption>
 						</figure>
 					</a>
 				</section>

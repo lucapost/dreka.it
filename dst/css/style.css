@@ -80,6 +80,15 @@ figure.camera img {
 	border: 5px solid white;
 }
 
+figcaption {
+	background: white;
+	color: blue;
+	padding: 0 5px;
+	font-size: 14px;
+	line-height: 20px;
+	height: 40px;
+}
+
 ul li,
 p {
 	font-family: 'Nobile';
