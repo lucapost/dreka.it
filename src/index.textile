@@ -2,15 +2,20 @@ notextile. <article class="grid_6 alpha">
 
 h3. Prossimi Eventi
 
+notextile. <img src="/images/rosa.png" alt="rosa" title="rosa" class="grid_2 alpha"/>
+<div class="grid_4 omega">
+
 * Rosinca 2015
 * ...
 * ...
+
+notextile. </div><div class="grid_6 alpha omega">
 
 h3. Newsletter
 
 * ...
 
-notextile. </article><article class="grid_6 omega">
+notextile. </div></article><article class="grid_6 omega">
 
 h3. Territorio
 
@@ -27,6 +32,9 @@ h3. Chi siamo
 
 h3. Contatti
 
+notextile. <img src="/images/phone.png" alt="immagine telefono" title="immagine telefono" class="grid_2 alpha"/>
+<div class="grid_4 omega">
+
 * email
 ** "info@dreka.it":mailto:info@dreka.it
 
@@ -34,4 +42,4 @@ h3. Contatti
 ** "kobiljaglava.com":http://www.kobiljaglava.com
 ** "www.comune.drenchia.ud.it":http://www.comune.drenchia.ud.it
 
-notextile. </article>
+notextile. </div></article>
