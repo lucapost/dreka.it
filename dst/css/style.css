@@ -12,10 +12,10 @@ body {
   	background-color: lightblue;
   	background-position: center center;
   	background-repeat: no-repeat;
-  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(black), to(lightblue));
-  	background: -webkit-radial-gradient(circle, black, lightblue);
-  	background: -moz-radial-gradient(circle, black, lightblue);
-  	background: -ms-radial-gradient(circle, black, lightblue);
+  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(green), to(lightblue));
+  	background: -webkit-radial-gradient(circle, green, lightblue);
+  	background: -moz-radial-gradient(circle, green, lightblue);
+  	background: -ms-radial-gradient(circle, green, lightblue);
 	color: white;
 }
 
