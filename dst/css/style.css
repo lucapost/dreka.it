@@ -21,10 +21,16 @@ body {
 
 a {	
 	text-decoration: none;
+	color: white;
 }
 
 a:hover {
 	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: white;
 }
 
 .head {
@@ -41,11 +47,7 @@ h1 {
 	font-weight: 100;
 	line-height: 60px;
 	color: white;
-	text-shadow: 2px 2px black;
-}
-
-a:hover h1 {
-	color: grey;
+	text-shadow: 2px 2px blue;
 }
 
 h2 {	
@@ -54,28 +56,22 @@ h2 {
 	line-height: 40px;
 	font-weight: 100;
 	color: white;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px blue;
 	margin: 0;
 }
 
 h3 {
-	text-align: center;
 	font-family: 'Permanent Marker', cursive;
 	font-size: 36px;
 	font-weight: lighter;
 	line-height: 40px;
 	color: white;
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px blue;
 }
 
 img.logo {
 	width: 300px;
 	height: 160px;
-}
-
-a {
-	margin:0 ;
-	padding: 0;
 }
 
 figure.camera img {
@@ -97,14 +93,5 @@ article {
 }
 
 article a {
-	color: white;
 	text-decoration: underline;
-}
-
-article a:hover {
-	color: grey;
-}
-
-article a:visited {
-	color: green;
 }
