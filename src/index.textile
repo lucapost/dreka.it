@@ -6,6 +6,10 @@ h3. Prossimi Eventi
 * ...
 * ...
 
+h3. Newsletter
+
+* ...
+
 notextile. </article><article class="grid_4">
 
 h3. Territorio
