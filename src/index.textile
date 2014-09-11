@@ -14,7 +14,12 @@ notextile. </article><article class="grid_6 omega">
 
 h3. Territorio
 
+notextile. <img src="/images/stemma-drenchia.png" alt="stemma drenchia" title="stemma del Comune di Drenchia" class="grid_2 alpha"/>
+<div class="grid_4 omega">
+
 Il "Comune di Drenchia":http://www.comune.drenchia.ud.it/ è il più piccolo ente municipale del Friuli Venezia Giulia, conta infatti solo 141 abitanti. Si trova nell'estremo nordest d'Italia, nelle Valli del Natisone, sulle pendici della catena montuosa del Colovrat, al confine con la Repubblica di Slovenia. Se vuoi approfondire ti consigliamo la pagina "it.wikipedia.org/wiki/Drenchia":http://it.wikipedia.org/wiki/Drenchia.
+
+notextile. </div>
 
 h3. Chi siamo
 
