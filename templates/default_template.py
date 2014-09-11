@@ -6,7 +6,7 @@ SITEMAP = "./dst/sitemap.xml"
 URL = "http://dreka.it"
 SRC = "/home/lucapost/repo/dreka.it/src/"
 TITLE = "Dreka"
-SUBTITLE = "Immagini panoramiche sul territorio di Drenchia, sul Kolovrat, nelle Valli del Natisone in provincia di Udine"
+SUBTITLE = "Immagini panoramiche dal territorio di Drenchia, sul Kolovrat, nelle Valli del Natisone in provincia di Udine"
 DST = "./dst/"
 PREFIX = "/"
 HOME = "/"
@@ -31,42 +31,49 @@ def header(node):
        	<meta name="author" content="Luca Postregna" />
 	<meta name="description" content="''' + SUBTITLE + ''' - ''' + node.page.name + '''" />
         <meta name="keywords" content="dreka, drenchia, kolovrat, valli del natisone, webcam">
-       	<title>''' + SITE_NAME + ''' | ''' + SUBTITLE + ''' | ''' + node.page.name + '''</title>
+       	<title>''' + SITE_NAME + ''' | ''' + SUBTITLE + '''</title>
   		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/960_12_col.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/hashgrid.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
-		<script src="/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   		<script src="/js/modernizr.js"></script> 
   		<script src="/js/hashgrid.js"></script> 
-		<link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
-		<link rel="stylesheet" href="/owl-carousel/owl.theme.css">
-		<script src="/owl-carousel/owl.carousel.js"></script>
-  		<script src="/js/slide.js"></script> 
+		<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js"></script>
+  		<script src="/js/fancy.js"></script> 
 	</head>
-	<body>
-			<header id="top" class="container_12 clearfix">
-				<h1 class="grid_12"><a href="/" title="home page">''' + SITE_NAME + '''</a></h1>
-				<h2 class="grid_12">Immagini panoramiche dalla frazione di Cras e sulla catena del Kolovrat, nel comune di Drenchia</h2>
-               		</header>
-		<div class="boxfigure">
-			<figure class="container_12 clearfix">
-				<div id="owl-demo" class="owl-carousel owl-theme grid_12">
-  					<div class="item">
-      					      	<img src="http://dreka.it/camera_1.jpg" alt="camera_2" title="la webcam sul Kolovrat" id="kolovrat" class="big">
-					</div>
-  					<div class="item">
-      					      	<img src="http://dreka.it/camera_2.jpg" alt="camera_2" title="la webcam sul Kolovrat" id="kolovrat" class="big">
-					</div>
-				</div>
-			</figure>
-            	</div>
-			<div class="clear"></div>
+	<body id="home">
+			<div id="top" class="container_12 clearfix head">
+				<header class="grid_8">	
+					<a href="/" title="home page">
+						<h1>''' + SITE_NAME + '''<h1/>
+					</a>
+					<h2>Immagini panoramiche dal territorio di Drenchia: da Cras e sul Kolovrat</h2>
+				</header>
+				<figure>
+      					<img src="/images/DKGb.png" alt="kobilja glava" title="kobilja glava" class="grid_4 logo">
+				</figure>
+               		</div>
 			<div class="container_12 clearfix">
-				<div class="grid_12">
-				</div>
+				<section>
+					<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione San Volfango e Lombai">
+						<figure class="grid_6 camera">
+							<img src="http://dreka.it/camera_1.jpg"/>
+						</figure>
+					</a>
+					<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione Kolovrat: Drenchia, Trinco, Zuodar e Crai">
+						<figure class="grid_6 camera">
+							<img src="http://dreka.it/camera_2.jpg"/>
+						</figure>
+					</a>
+				</section>
+				<section class="grid_12">
+					<p>sponsor</p>
+				</section>
+
 			</div>
 			<div class="clear"></div>
     	    		<section class="container_12 clearfix">

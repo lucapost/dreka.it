@@ -1,11 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Nobile);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
 * {
     	margin: 0;
     	padding: 0;
+}
+
+body {
 	font-size: 16px;
 	line-height: 20px;
+  	background-color: #2F2727;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(black), to(red));
+  	background: -webkit-radial-gradient(circle, black, red);
+  	background: -moz-radial-gradient(circle, black, red);
+  	background: -ms-radial-gradient(circle, black, red);
+	color: white;
 }
 
 a {	
@@ -13,46 +24,64 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+}
+
+.head {
+	padding-top:20px;
+}
+
+header {
+	height: 180px;
 }
 
 h1 {
-	text-align: center;
-	font-family: 'Lobster', cursive;
-	font-size: 72px;
-	font-weight: normal;
-	line-height: 80px;
-	margin: 20px 0 20px 0;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 60px;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
-h1 a {
-	color: blue;
-	text-shadow: 2px 2px green;
-}
-
-h1 a:hover {
-	color: black;
-}
-
-h1 a:visited {
-	color: blue;
+a:hover h1 {
+	color: grey;
 }
 
 h2 {	
-	text-align: center;
-	font-family: 'Nobile';
-	font-size: 16px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
 	line-height: 40px;
+	font-weight: 100;
+	color: white;
+	text-shadow: 1px 1px black;
+	margin: 0;
 }
 
 h3 {
 	text-align: center;
-	font-family: 'Lobster', cursive;
-	font-size: 20px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 36px;
 	font-weight: lighter;
 	line-height: 40px;
-	color: blue;
-	text-shadow: 1px 1px green;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+img.logo {
+	width: 300px;
+	height: 160px;
+}
+
+a {
+	margin:0 ;
+	padding: 0;
+}
+
+figure.camera img {
+	width: 450px;
+	height: 250px;
+	border: 5px solid white;
 }
 
 ul li,
@@ -63,66 +92,19 @@ p {
 	line-height: 20px;
 }
 
-.boxfigure {
-	padding-top: 20px;
-	background: #93cede;
-	background: -moz-radial-gradient(center, ellipse cover,  #93cede 0%, #75bdd1 41%, #49a5bf 100%);
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf));
-	background: -webkit-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
-	background: -o-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
-	background: -ms-radial-gradient(center, ellipse cover,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
-	background: radial-gradient(ellipse at center,  #93cede 0%,#75bdd1 41%,#49a5bf 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=1 );
-}
-
-img.big:hover.small {
-	border: 1px solid green;
-}
-
-img.big:not(:target) {
-    	display: none;
-}
-
-img.big.focus:not(:target) {
-    	display: none;
-}
-
-img.big:target {
-    	display: block;
-   	-webkit-animation: fadeIn 1s;
-   	animation: fadeIn 1s;
-}
-
-img.big {
-	margin-bottom: 20px;
-	width: 938px;
-	height: 518px;
-	border-radius: 10px;
-	border: 1px solid black;
-}
-
 article {
 	margin-top: 20px;
 }
 
 article a {
-	color: green;
+	color: white;
+	text-decoration: underline;
+}
+
+article a:hover {
+	color: grey;
 }
 
 article a:visited {
 	color: green;
-}
-
-.foot {
-	text-align: center;
-	height: 59px
-	border-top: 1px solid black;
-}
-
-img.smaller {
-	border-radius: 10px;
-}
-
-#owl-demo .item img{
-    	display: block;
 }
