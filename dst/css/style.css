@@ -13,7 +13,8 @@ body {
   	background-position: center center;
   	background-repeat: no-repeat;
   	background: -webkit-gradient(radial, center center, 0, center center, 460, from(green), to(lightblue));
-  	background: -webkit-radial-gradient(circle, green, lightblue);
+/*  	background: -webkit-radial-gradient(circle, green, lightblue);*/
+  	background: -webkit-radial-gradient(circle, black, grey);
   	background: -moz-radial-gradient(circle, green, lightblue);
   	background: -ms-radial-gradient(circle, green, lightblue);
 	color: white;
@@ -82,7 +83,7 @@ figure.camera img {
 
 figcaption {
 	background: white;
-	color: blue;
+	color: black;
 	padding: 0 5px;
 	font-size: 14px;
 	line-height: 20px;
