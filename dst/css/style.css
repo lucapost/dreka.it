@@ -9,13 +9,13 @@
 body {
 	font-size: 16px;
 	line-height: 20px;
-  	background-color: #2F2727;
+  	background-color: lightblue;
   	background-position: center center;
   	background-repeat: no-repeat;
-  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(black), to(red));
-  	background: -webkit-radial-gradient(circle, black, red);
-  	background: -moz-radial-gradient(circle, black, red);
-  	background: -ms-radial-gradient(circle, black, red);
+  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(black), to(lightblue));
+  	background: -webkit-radial-gradient(circle, black, lightblue);
+  	background: -moz-radial-gradient(circle, black, lightblue);
+  	background: -ms-radial-gradient(circle, black, lightblue);
 	color: white;
 }
 
