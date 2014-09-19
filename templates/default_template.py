@@ -47,47 +47,60 @@ def header(node):
   		<script src="/js/fancy.js"></script> 
 	</head>
 	<body id="home">
-			<div id="top" class="container_12 clearfix head">
-				<header class="grid_8">	
-					<a href="/" title="home page">
-						<h1>''' + SITE_NAME + '''<h1/>
-					</a>
+		<div class="container_12 clearfix head">
+			<header class="grid_8">	
+				<a href="/" title="home page">
+					<h1>''' + SITE_NAME + '''</h1>
+				</a>
 					<h2>Immagini panoramiche dal territorio di Drenchia: da Cras e sul Kolovrat</h2>
-				</header>
-				<figure>
-      					<img src="/images/DKGb.png" alt="kobilja glava" title="kobilja glava" class="grid_4 logo">
+			</header>
+			<div class="grid_4">
+				<figure class="grid_1 alpha">
+      					<img src="/images/flag_ita.png" alt="bandiera italiana" title="lingua italiana" class="flag"/>
 				</figure>
-               		</div>
-			<div class="container_12 clearfix">
-				<section>
-					<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione San Volfango e Lombai">
-						<figure class="grid_6 camera">
-							<img src="http://dreka.it/camera_1.jpg"/>
-							<figcaption>La piazza e la canonica di Cras; sullo sfondo la chiesa di San Volfango, Rucchin e Lombai; l'altopiano della Baisizza ed il Monte Cum</figcaption>
-						</figure>
-					</a>
-					<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione Kolovrat: Drenchia, Trinco, Zuodar e Crai">
-						<figure class="grid_6 camera">
-							<img src="http://dreka.it/camera_2.jpg"/>
-							<figcaption>La catena montuosa del Colovrat; le frazioni di Drenchia Superiore ed Inferiore, Trinco, Zuodar e Crai; Passo Casoni Solarie</figcaption>
-						</figure>
-					</a>
-				</section>
-				<section class="grid_12">
-					<p>sponsor</p>
-				</section>
-
+				<figure class="grid_1">
+      					<img src="/images/flag_slo.png" alt="bandiera slovena" title="lingua slovena" class="flag"/>
+				</figure>
+				<figure class="grid_1">
+      					<img src="/images/flag_eng.png" alt="bandiera inglese" title="lingua inglese" class="flag"/>
+				</figure>
+				<figure class="grid_1 omega">
+      					<img src="/images/flag_deu.png" alt="bandiera tedesca" title="lingua tedesca" class="flag"/>
+				</figure>
+				<figure class="grid_4 alpha omega">
+      					<img src="/images/DKGb.png" alt="kobilja glava" title="kobilja glava" class="logo"/>
+				</figure>
 			</div>
 			<div class="clear"></div>
-    	    		<section class="container_12 clearfix">
-            			<div class="grid_12">
+        	</div>
+		<div class="container_12 clearfix">
+			<section class="grid_12">
+				<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione San Volfango e Lombai">
+					<figure class="grid_6 alpha camera">
+						<img src="http://dreka.it/camera_1.jpg"/>
+					</figure>
+				</a>
+				<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione Kolovrat: Drenchia, Trinco, Zuodar e Crai">
+					<figure class="grid_6 omega camera">
+						<img src="http://dreka.it/camera_2.jpg"/>
+					</figure>
+				</a>
+			</section>
+			<div class="clear"></div>
+			<section class="grid_12">
+				<p>sponsor</p>
+			</section>
+			</div>
+    			<section class="container_12 clearfix">
+       				<div class="grid_12">
 			'''
 def footer(node):
     """Build the footer and return it to a string."""
 
     return '''
-            			</div>
+       				</div>
 				<div class="clear"></div>
 			</section>
-</body>
+		</div>
+	</body>
 </html>'''
