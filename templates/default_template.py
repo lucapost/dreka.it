@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import time
 import datetime
 
@@ -101,9 +104,5 @@ def footer(node):
        			</div>
 			<div class="clear"></div>
 		</div>
-		<footer class="container_12 clearfix">
-			<p>Associazione (Drustvo) Kobilja Glava - Oznebrida (Ocneberdo), 13 - 33040 Drenchia (Dreka), UD, Italy</p>
-			<p><a href="mailto:kobiljaglava@yahoo.it">kobiljaglava@yahoo.it</a></p>
-		</footer>
 	</body>
 </html>'''
