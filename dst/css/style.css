@@ -33,19 +33,6 @@ a:visited {
 	color: white;
 }
 
-.head {
-	padding-top:20px;
-	height: 280px;
-}
-
-p.coordinate {	
-	text-align: center;
-	background-color: lightblue;
-	color: black;
-	padding: 10px 0;
-	border-radius: 10px;
-}
-
 h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 54px;
@@ -63,7 +50,8 @@ h2 {
 	font-weight: 100;
 	color: white;
 	text-shadow: 1px 1px blue;
-	margin: 0;
+	margin: 0 0 20px 0;
+	text-align: center;
 }
 
 h3 {
@@ -75,12 +63,39 @@ h3 {
 	text-shadow: 1px 1px blue;
 }
 
+ul li,
+p {
+	font-family: 'Nobile';
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.asso {
+	margin-top: 20px;
+}
+
+.asso p {
+	text-align: right;
+}
+
+p.coordinate {	
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding: 10px 0;
+	border-radius: 10px;
+}
+
 #google_translate_element {
 	padding-top: 20px;
 }
 
 img.logo {
-	width: 460px;
+	width: 120px;
+	height: 120px;
+	border: 10px solid lightblue;
+	border-radius: 10px;
 }
 
 figure.camera img {
@@ -88,14 +103,6 @@ figure.camera img {
 	height: 250px;
 	border: 10px solid lightblue;
 	border-radius: 8px;
-}
-
-ul li,
-p {
-	font-family: 'Nobile';
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 20px;
 }
 
 article {

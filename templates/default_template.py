@@ -1,7 +1,7 @@
 import time
 import datetime
 
-SITE_NAME = "Le webcam di Dreka (Drenchia)"
+SITE_NAME = "Le webcam di Drenchia (Dreka)"
 SITEMAP = "./dst/sitemap.xml"
 URL = "http://dreka.it"
 SRC = "/home/lucapost/repo/dreka.it/src/"
@@ -49,24 +49,25 @@ def header(node):
 	</head>
 	<body id="home">
 		<div class="container_12 clearfix head">
+			<header class="grid_12">
+				<h2>Immagini panoramiche da Cras e sul Kolovrat</h2>
+			</header>
+			<div class="clear"></div>
 			<div class="grid_6">
 				<header class="grid_6 alpha omega">	
 					<a href="/" title="home page"><h1>''' + SITE_NAME + '''</h1></a>
-					<h2>Immagini panoramiche da Cras e sul Kolovrat</h2>
 				</header>
-				<div class="grid_6 alpha omega">
-					<div id="google_translate_element"></div>
-					<script type="text/javascript">
-					function googleTranslateElementInit() {
-				  	new google.translate.TranslateElement({pageLanguage: 'it', includedLanguages: 'de,en,sl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
-					}
-					</script>
-					<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-				</div>
 			</div>
 			<div class="grid_6">
-				<figure class="grid_6 alpha omega">
-      					<img src="/images/DKGb_1.png" alt="kobilja glava" title="kobilja glava" class="logo"/>
+				<div class="grid_4 alpha asso">
+					<p>Associazione (Drustvo) Kobilja Glava<br/>
+						Oznebrida (Ocneberdo), 13<br/>
+						33040 Drenchia (Dreka), UD, Italia
+					<p/>
+					<p>kobiljaglava@yahoo.it</p>
+				</div>
+				<figure class="grid_2 omega">
+      					<img src="/images/kg_small.jpg" alt="kobilja glava" title="kobilja glava" class="logo"/>
 				</figure>
 			</div>
 			<div class="clear"></div>
@@ -86,7 +87,7 @@ def header(node):
 			</section>
 			<div class="clear"></div>
 			<section class="grid_12">
-				<p class="coordinate">Vista da Razpotje (Cras), in comune di Dreka (Drenchia), 46 11'02''N - 13 38'11''E</p>
+				<p class="coordinate">Vista da Razpotje (Cras), in comune di Dreka (Drenchia), 46 11'02''N - 13 38'11''</p>
 			</section>
 			<div class="clear"></div>
 		</div>
