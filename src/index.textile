@@ -1,45 +1,25 @@
 notextile. <article class="grid_6 alpha">
 
-h3. Prossimi Eventi
+h3. Chi siamo
 
-notextile. <img src="/images/rosa.png" alt="rosa" title="rosa" class="grid_2 alpha"/>
-<div class="grid_4 omega">
+L'"Associazione Kobilja glava":http://www.kobiljaglava.it/, ha sede a Ocnebardo (Oznebrida) in Comune di Dreka (Drenchia). 
 
-* Rosinca 2015
-* ...
-* ...
+Il nostro obiettivo principale è la valorizzazione della cultura locale e del territorio. 
 
-notextile. </div><div class="grid_6 alpha omega">
+Vogliamo fornire le informazioni a chi non lo conosce, dare uno strumento ai compaesani che vivono lontani perché possano rimanere legati alla terra natale e dare, in tempo reale, la situazione meteorologica locale, per illustrare i diversi e buoni motivi per visitare la nostra terra. 
 
-h3. Newsletter
+Il "Comune di Drenchia":http://www.comune.drenchia.ud.it/ ha aiutato a realizzare il sistema.
 
-* ...
-
-notextile. </div></article><article class="grid_6 omega">
+notextile. </article><article class="grid_6 omega">
 
 h3. Territorio
 
-notextile. <img src="/images/stemma-drenchia.png" alt="stemma drenchia" title="stemma del Comune di Drenchia" class="grid_2 alpha"/>
-<div class="grid_4 omega">
+Dreka (Drenchia), con i suoi paesini sparpagliati sulle pendici, è un insieme di persone, perlopiù sparse per il mondo, che guardano con affetto e nostalgia a questa terra incontaminata. 
 
-Il "Comune di Drenchia":http://www.comune.drenchia.ud.it/ è il più piccolo ente municipale del Friuli Venezia Giulia, conta infatti solo 141 abitanti. Si trova nell'estremo nordest d'Italia, nelle Valli del Natisone, sulle pendici della catena montuosa del Colovrat, al confine con la Repubblica di Slovenia. Se vuoi approfondire ti consigliamo la pagina "it.wikipedia.org/wiki/Drenchia":http://it.wikipedia.org/wiki/Drenchia.
+Non avendo mai avuto insediamenti industriali a monte né trattamenti pesticidi di sorta, gode di aria fresca e pulita e di una varietà sorprendentemente numerosa di piante e animali. 
 
-notextile. </div>
+Ricca anche di siti storici e naturalistici, offre spunti per scampagnate e vacanze serene. 
 
-h3. Chi siamo
+notextile. </article>
 
-"Le webcam di Dreka" è un progetto dell'associazione "Kobilja Glava":http://www.kobiljaglava.com, nasce nel 2014 con ll'intenzione di offrire la possibilità di dare un occhio sulle frazioni di Drenchia, a chi ama questi luoghi ed a chi è lontano.
-
-h3. Contatti
-
-notextile. <img src="/images/phone.png" alt="immagine telefono" title="immagine telefono" class="grid_2 alpha"/>
-<div class="grid_4 omega">
-
-* email
-** "info@dreka.it":mailto:info@dreka.it
-
-* www
-** "kobiljaglava.com":http://www.kobiljaglava.com
-** "www.comune.drenchia.ud.it":http://www.comune.drenchia.ud.it
-
-notextile. </div></article>
+notextile. <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22105.75042891686!2d13.612538576879473!3d46.16629999456935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477a59c2be1ad28d%3A0x42cc0b372cfb88d8!2sComune+Di+Drenchia!5e0!3m2!1sit!2sit!4v1411126200946"  frameborder="0" style="border:0; margin-bottom: 20px;" class="grid_12 alpha omega" height="400px"></iframe>

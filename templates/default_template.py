@@ -1,7 +1,7 @@
 import time
 import datetime
 
-SITE_NAME = "Le webcam di Dreka"
+SITE_NAME = "Le webcam di Dreka (Drenchia)"
 SITEMAP = "./dst/sitemap.xml"
 URL = "http://dreka.it"
 SRC = "/home/lucapost/repo/dreka.it/src/"
@@ -30,7 +30,8 @@ def header(node):
        		<meta charset="utf-8" />
        		<meta name="author" content="Luca Postregna" />
 		<meta name="description" content="''' + SUBTITLE + ''' - ''' + node.page.name + '''" />
-        	<meta name="keywords" content="dreka, drenchia, kolovrat, valli del natisone, webcam">
+        	<meta name="keywords" content="dreka, drenchia, kolovrat, valli del natisone, webcam" />
+		<meta name="google-translate-customization" content="6cf47dec77693085-336ca7420c2badda-g5287f68072eea9cd-8"></meta>
        		<title>''' + SITE_NAME + ''' | ''' + SUBTITLE + '''</title>
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
@@ -48,39 +49,36 @@ def header(node):
 	</head>
 	<body id="home">
 		<div class="container_12 clearfix head">
-			<header class="grid_8">	
-				<a href="/" title="home page">
-					<h1>''' + SITE_NAME + '''</h1>
-				</a>
-					<h2>Immagini panoramiche dal territorio di Drenchia: da Cras e sul Kolovrat</h2>
-			</header>
-			<div class="grid_4">
-				<figure class="grid_1 alpha">
-      					<img src="/images/flag_ita.png" alt="bandiera italiana" title="lingua italiana" class="flag"/>
-				</figure>
-				<figure class="grid_1">
-      					<img src="/images/flag_slo.png" alt="bandiera slovena" title="lingua slovena" class="flag"/>
-				</figure>
-				<figure class="grid_1">
-      					<img src="/images/flag_eng.png" alt="bandiera inglese" title="lingua inglese" class="flag"/>
-				</figure>
-				<figure class="grid_1 omega">
-      					<img src="/images/flag_deu.png" alt="bandiera tedesca" title="lingua tedesca" class="flag"/>
-				</figure>
-				<figure class="grid_4 alpha omega">
-      					<img src="/images/DKGb.png" alt="kobilja glava" title="kobilja glava" class="logo"/>
+			<div class="grid_6">
+				<header class="grid_6 alpha omega">	
+					<a href="/" title="home page"><h1>''' + SITE_NAME + '''</h1></a>
+					<h2>Immagini panoramiche da Cras e sul Kolovrat</h2>
+				</header>
+				<div class="grid_6 alpha omega">
+					<div id="google_translate_element"></div>
+					<script type="text/javascript">
+					function googleTranslateElementInit() {
+				  	new google.translate.TranslateElement({pageLanguage: 'it', includedLanguages: 'de,en,sl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+					}
+					</script>
+					<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+			<div class="grid_6">
+				<figure class="grid_6 alpha omega">
+      					<img src="/images/DKGb_1.png" alt="kobilja glava" title="kobilja glava" class="logo"/>
 				</figure>
 			</div>
 			<div class="clear"></div>
         	</div>
 		<div class="container_12 clearfix">
 			<section class="grid_12">
-				<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione San Volfango e Lombai">
+				<a href="http://dreka.it/camera_1.jpg" class="fancybox" rel="gallery" title="In primo piano la canonica di Barnjak (Cras), a sinistra Stoblank (S. Volfango), Srednje, a destra Lombaj (Lombai) ed il monte Hum">
 					<figure class="grid_6 alpha camera">
 						<img src="http://dreka.it/camera_1.jpg"/>
 					</figure>
 				</a>
-				<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da Cras in direzione Kolovrat: Drenchia, Trinco, Zuodar e Crai">
+				<a href="http://dreka.it/camera_2.jpg" class="fancybox" rel="gallery" title="Da sinistra: Dreka dolenja in gorenja (Drenchia inferiore e superiore), Trinko (Trinco), Cuodar (Zuodar), Kraj (Crai), ai piedi del Kolovrat">
 					<figure class="grid_6 omega camera">
 						<img src="http://dreka.it/camera_2.jpg"/>
 					</figure>
@@ -88,19 +86,23 @@ def header(node):
 			</section>
 			<div class="clear"></div>
 			<section class="grid_12">
-				<p>sponsor</p>
+				<p class="coordinate">Vista da Razpotje (Cras), in comune di Dreka (Drenchia), 46 11'02''N - 13 38'11''E</p>
 			</section>
-			</div>
-    			<section class="container_12 clearfix">
-       				<div class="grid_12">
+			<div class="clear"></div>
+		</div>
+    		<div class="container_12 clearfix">
+       			<div class="grid_12">
 			'''
 def footer(node):
     """Build the footer and return it to a string."""
 
     return '''
-       				</div>
-				<div class="clear"></div>
-			</section>
+       			</div>
+			<div class="clear"></div>
 		</div>
+		<footer class="container_12 clearfix">
+			<p>Associazione (Drustvo) Kobilja Glava - Oznebrida (Ocneberdo), 13 - 33040 Drenchia (Dreka), UD, Italy</p>
+			<p><a href="mailto:kobiljaglava@yahoo.it">kobiljaglava@yahoo.it</a></p>
+		</footer>
 	</body>
 </html>'''
