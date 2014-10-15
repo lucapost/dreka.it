@@ -7,119 +7,41 @@
 }
 
 body {
-	font-size: 16px;
 	line-height: 20px;
-  	background-color: lightblue;
-  	background-position: center center;
-  	background-repeat: no-repeat;
-  	background: -webkit-gradient(radial, center center, 0, center center, 460, from(green), to(yellow));
-  	background: -webkit-radial-gradient(circle, blue, lightblue);
-  	background: -moz-radial-gradient(circle, green, yellow);
-  	background: -ms-radial-gradient(circle, green, yellow);
-	color: white;
+}
+
+p {
+	font-size: 16px;
 }
 
 a {	
 	text-decoration: none;
-	color: white;
 }
 
-a:hover {
-	text-decoration: none;
-	color: black;
-}
-
-a:visited {
-	color: white;
-}
-
-h1 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 54px;
-	font-weight: 100;
-	line-height: 60px;
-	color: white;
-	text-shadow: 2px 2px blue;
-	margin: 0 0 20px 0;
-}
-
-h2 {	
-	font-family: 'Permanent Marker', cursive;
-	font-size: 32px;
-	line-height: 40px;
-	font-weight: 100;
-	color: white;
-	text-shadow: 1px 1px blue;
-	margin: 0 0 20px 0;
-	text-align: center;
-}
-
-h3 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 36px;
-	font-weight: lighter;
-	line-height: 40px;
-	color: white;
-	text-shadow: 1px 1px blue;
-}
-
-ul li,
-p {
-	font-family: 'Nobile';
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 20px;
-}
-
-.asso {
-	margin-top: 20px;
-}
-
-.asso p {
-	text-align: right;
-}
-
-p.coordinate {	
-	text-align: center;
-	background-color: lightblue;
-	color: black;
-	padding: 10px 0;
-	border-radius: 10px;
-}
-
-#google_translate_element {
+.top {
 	padding-top: 20px;
 }
 
+.right {
+	text-align: right;
+}
+
 img.logo {
-	width: 120px;
-	height: 120px;
-	border: 10px solid lightblue;
+	height: 140px;
+	width: 140px;
 	border-radius: 10px;
 }
 
-figure.camera img {
-	width: 440px;
-	height: 250px;
-	border: 10px solid lightblue;
-	border-radius: 8px;
+p.coordinate {
+	text-align: center;
 }
 
-article {
-	margin: 20px 0;
-}
-
-article a {
-	text-decoration: underline;
-}
-
-.gmaps {
-	border: 10px solid lightblue;
-	border-radius: 8px;
-	height: 400px;
-	margin-bottom: 20px;
+img.camera {
+	width: 460px;
+	border-radius: 10px;
 }
 
 footer {
+	padding: 20px 0 0 0;
 	text-align: center;
 }
